@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: DarkerMetal
+    second: {fileID: 2100000, guid: a39954d279e8cdb48aa42ac66f760d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Glow
     second: {fileID: 2100000, guid: b538432aec0a057458173821e0dac483, type: 2}
   - first:
