@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HealthPackShader
+  m_Shader: {fileID: -6465566751694194690, guid: dd1c3f04d66bfcc478a10f042e992432, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_ff3bbe6734784e50a3c8dbacc6e8ee3b: 0.025
+    m_Colors:
+    - Color_361a148d6a174d3f8e5b68ee830d3f7a: {r: 0.14117646, g: 0.14901957, b: 0.18039218, a: 0}
+    - Color_5ff52359ca6f49349f622878190648c3: {r: 0, g: 1.6788806, b: 1.7814789, a: 0}
+    - Color_744ba46cbb674aefb1d7c06e86e93305: {r: 1.4980392, g: 0, b: 0, a: 0}
+    - Vector2_b4902f44d68b4d069d3bb4d28168a920: {r: 128, g: 128, b: 0, a: 0}
+    - Vector2_cc6dbdf9ea894d03a36e3925a0ba42c8: {r: 0.16, g: 0.4, b: 0, a: 0}
+  m_BuildTextureStacks: []
