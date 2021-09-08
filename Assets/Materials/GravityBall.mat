@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4791725177379120711
+--- !u!114 &-6270936965568131646
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlobeWorldMap
-  m_Shader: {fileID: -6465566751694194690, guid: 13a424593d46e4243b8dc4dd240e1636, type: 3}
+  m_Name: GravityBall
+  m_Shader: {fileID: -6465566751694194690, guid: f2b6ca98d3ae9ac44873b92e516e1ad4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,12 +32,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_76fceb40064340dd8baa39293e0f933a:
-        m_Texture: {fileID: 2800000, guid: a32e40dc537c1a041b51c91fe3baff62, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: dfc580a0f262a4e48b34f9109b932779, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -61,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dfc580a0f262a4e48b34f9109b932779, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -93,9 +89,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_c334b91234f84841a806cd6f8baa005f: -0.025
-    - Vector1_dde323071ec247aaac39012eb24c54a5: -0.25
-    - Vector1_ffb8430136184b31b0f30611b1a3e3a3: 0.2
+    - Vector1_f1a0939d13794308afa4f1f17b01e90b: 1.36
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -123,8 +117,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_13b1d1da2c704e6dab86202e3cf84de8: {r: 2.9960785, g: 0.6117647, b: 0, a: 1}
-    - Vector2_d8e780a0c3f7443cab9e4fff1c7d59b5: {r: 1, g: 1, b: 0, a: 0}
+    - Color_36e6ffee964a4a52ba87a82a6fbc8539: {r: 0.3993749, g: 0, b: 0.8392157, a: 0}
+    - Color_c34d433e1ce64e7d85d0db1875ac4282: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
