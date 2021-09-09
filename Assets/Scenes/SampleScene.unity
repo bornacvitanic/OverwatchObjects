@@ -591,6 +591,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 618981396}
     m_Modifications:
+    - target: {fileID: 2302584905430764512, guid: 273ebdba41c34f54f999e6178b629f62, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 909d4c92dba1ab74b8fed8137c3c0ac5, type: 2}
     - target: {fileID: 3340233822926738295, guid: 273ebdba41c34f54f999e6178b629f62, type: 3}
       propertyPath: m_Name
       value: Sigma Hyper Sphere
