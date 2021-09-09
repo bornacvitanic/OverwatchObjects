@@ -139,3 +139,78 @@ Received Import Request.
 Start importing Assets/Materials/GravityBall.mat using Guid(322006bd88684eb43a0e9ee2ac663d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ad2c703aa818c7c7cf2967dfd2f1e0') in 0.427127 seconds 
   Import took 0.434350 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1619ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1319ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 3.238000 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.157700 ms MarkObjects: 2.693400 ms  DeleteObjects: 0.028400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17171.489071 seconds.
+  path: Assets/Materials/GravityBall.mat
+  artifactKey: Guid(322006bd88684eb43a0e9ee2ac663d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GravityBall.mat using Guid(322006bd88684eb43a0e9ee2ac663d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9a255a43af1183d322d991203c3967') in 0.257316 seconds 
+  Import took 0.266026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.339948 seconds.
+  path: Assets/Materials/ReflectiveMetal.mat
+  artifactKey: Guid(909d4c92dba1ab74b8fed8137c3c0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ReflectiveMetal.mat using Guid(909d4c92dba1ab74b8fed8137c3c0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae46d09c7a9e56e69e90e77f051130b') in 0.017788 seconds 
+  Import took 0.026775 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
