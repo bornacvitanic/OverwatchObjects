@@ -32,7 +32,7 @@ GameObject:
   - component: {fileID: 5001434278673580820}
   - component: {fileID: 751437628014022967}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Health Pack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6359013059353424206}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2.5
@@ -141,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPackSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 1502749811086597861, guid: e1e3923dc517e3a42bc9007ed925ce31, type: 3}
+      propertyPath: healthPack
+      value: 
+      objectReference: {fileID: 5001434278673580820}
     - target: {fileID: 1996661204633700010, guid: e1e3923dc517e3a42bc9007ed925ce31, type: 3}
       propertyPath: m_RootOrder
       value: 0

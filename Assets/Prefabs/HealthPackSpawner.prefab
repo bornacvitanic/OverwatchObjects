@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996661204633700010}
+  - component: {fileID: 1502749811086597861}
   m_Layer: 0
   m_Name: HealthPackSpawner
   m_TagString: Untagged
@@ -34,6 +35,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502749811086597861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224486955326020624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9833aa4669be44eb1720e41f31a8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPack: {fileID: 0}
+  rechargeIndicator: {fileID: 4886826647330750288}
 --- !u!1 &2047107207846978482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4941,6 +4956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8ce15cadba86444c9fbde53281563de, type: 3}
+--- !u!1 &4886826647330750288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8091539690847711906, guid: d8ce15cadba86444c9fbde53281563de, type: 3}
+  m_PrefabInstance: {fileID: 3718727046914657778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4886826647330750292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8091539690847711910, guid: d8ce15cadba86444c9fbde53281563de, type: 3}
