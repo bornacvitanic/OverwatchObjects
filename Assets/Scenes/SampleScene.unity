@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502575, g: 0.37139234, b: 0.49601176, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502563, g: 0.37139195, b: 0.4960114, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -669,6 +669,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 618981396}
     m_Modifications:
+    - target: {fileID: 6359013059353424205, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 6359013060149900105, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -716,6 +720,26 @@ PrefabInstance:
     - target: {fileID: 6359013060149900106, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
       propertyPath: m_Name
       value: Health Pack
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896552350294907437, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896552350294907437, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896552350294907437, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896552350294907437, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896552350294907437, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eedc999d8cea8914d9ca6d3731aa9dea, type: 3}
