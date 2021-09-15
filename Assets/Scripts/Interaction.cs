@@ -15,18 +15,12 @@ public class Interaction : MonoBehaviour
         Debug.DrawRay(transform.position, transform.forward*15f, Color.green);
         if(Physics.Raycast(transform.position, transform.forward, out objectHit, 15f))
         {
-            //do something if hit object ie
             if(objectHit.transform.TryGetComponent<IInteract>(out IInteract interactable))
             {
                 interactable.Interact(gameObject);
             }
         }
         
-    }
-
-    private void Update()
-    {
-        InteractRaycast();
     }
 }
 

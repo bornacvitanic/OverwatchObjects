@@ -53,7 +53,8 @@ MonoBehaviour:
   healthPack: {fileID: 0}
   rechargeIndicator: {fileID: 4886826647330750288}
   hackedIndicator: {fileID: 7490551575760125768}
-  cooldown: 10
+  respawn_cooldown: 10
+  hacked_cooldown: 30
 --- !u!65 &1875881563508550454
 BoxCollider:
   m_ObjectHideFlags: 0
