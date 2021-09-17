@@ -6,3 +6,6 @@ Hackable Health Packs
 
 Hologram Globe
 [![Watch the video](https://img.youtube.com/vi/zruujZNB2JI/maxresdefault.jpg)](https://youtu.be/zruujZNB2JI)
+
+Sigma Hyper Sphere
+[![Watch the video](https://img.youtube.com/vi/YQo-R07wKaw/maxresdefault.jpg)](https://youtu.be/YQo-R07wKaw)
