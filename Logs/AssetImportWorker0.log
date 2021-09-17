@@ -1,0 +1,1332 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 32701 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/borna/Unity Projects/OverwatchObjects
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64554
+Successfully changed project path to: D:/Users/borna/Unity Projects/OverwatchObjects
+D:/Users/borna/Unity Projects/OverwatchObjects
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/borna/Unity Projects/OverwatchObjects/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   27.21.14.6140
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001905 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1736ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.680 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1681ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (599ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3005 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 2.960000 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.158300 ms MarkObjects: 2.344500 ms  DeleteObjects: 0.141000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c290797f2fba3adb90603751d4b1ebf') in 0.405805 seconds 
+  Import took 0.411413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.003099 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295ca88e78f70758ccd1de7b6a7543c6') in 0.076999 seconds 
+  Import took 0.083846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.692171 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcbedca28c755702ac8860d6c6809f5') in 0.078905 seconds 
+  Import took 0.085171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.524375 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5974a2cd5f65e9b0e1f9fa222fbcee45') in 0.087764 seconds 
+  Import took 0.096015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.924234 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6984409fa9ea114ce963643ae75c97f7') in 0.090484 seconds 
+  Import took 0.096857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.002132 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7305bf7d3aa418b3009335c2213e9f92') in 0.070163 seconds 
+  Import took 0.076255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.286372 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4549b8de04135af55e4ad6aa193e31b5') in 0.074710 seconds 
+  Import took 0.084444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.091613 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4c87544ec7565f68a625d88cdeee90') in 0.061591 seconds 
+  Import took 0.066819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.314539 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e4d14ebb62ee985de9e1515eabfcbc') in 0.053755 seconds 
+  Import took 0.058788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.191525 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9fefa73e0690d49e6e7752063e6a99') in 0.084266 seconds 
+  Import took 0.092340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.022476 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4ee9ca508f1f136c71917ec796e419') in 0.063137 seconds 
+  Import took 0.076647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.416584 seconds.
+  path: Assets/Materials/DarkerMetal2.mat
+  artifactKey: Guid(a76c92e2a185c774fa62d113c45eaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DarkerMetal2.mat using Guid(a76c92e2a185c774fa62d113c45eaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f61e26cf89c5ff05c55eba240da8745') in 0.132533 seconds 
+  Import took 0.140197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.827635 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863dbe83c2356b92762ee9a8edd58ce9') in 0.067482 seconds 
+  Import took 0.074447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 461.982587 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f11359b0ae92cb33a36a7e9a8151bc0') in 0.078303 seconds 
+  Import took 0.086847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005030 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f11359b0ae92cb33a36a7e9a8151bc0') in 0.077950 seconds 
+  Import took 0.084540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.564503 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b5dd847ab2d733e1548d2b34310c8') in 0.085340 seconds 
+  Import took 0.092727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.652315 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bfe19bb8a3ffaa49ba8b00a2ed682f') in 0.081072 seconds 
+  Import took 0.087607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007854 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bfe19bb8a3ffaa49ba8b00a2ed682f') in 0.066325 seconds 
+  Import took 0.072765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.303297 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42505b86f6ccc34262e3b59583cd076') in 0.021980 seconds 
+  Import took 0.028116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.848692 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (shield_generator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (shield_generator) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '13f6b3d6a9eb357ee692ecac53788df1') in 0.027332 seconds 
+  Import took 0.036214 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1417ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1164ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2889 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.8 MB.
+System memory in use after: 135.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3526.
+Total: 3.233600 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.148300 ms MarkObjects: 2.757200 ms  DeleteObjects: 0.028100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.913800 seconds.
+  path: Assets/Materials/DarkerMetal2.mat
+  artifactKey: Guid(a76c92e2a185c774fa62d113c45eaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DarkerMetal2.mat using Guid(a76c92e2a185c774fa62d113c45eaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a841518edca9a052a83c89fd40ecde4') in 0.190899 seconds 
+  Import took 0.196412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.275650 seconds.
+  path: Assets/Materials/EmissiveBlueDarker.mat
+  artifactKey: Guid(5139a32f626ed4c46af3aa8d4fe04460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EmissiveBlueDarker.mat using Guid(5139a32f626ed4c46af3aa8d4fe04460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0beedeefdb8a0af7f9081eaaad2d73c') in 0.012217 seconds 
+  Import took 0.019856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.386137 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856bff1fdabf56b6a7516951c682e517') in 0.098655 seconds 
+  Import took 0.105691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.550714 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec773ab60e2c254e604380007777b3bc') in 0.021975 seconds 
+  Import took 0.028690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.890498 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5a192ee15154101f18f543671f5ecc') in 0.018879 seconds 
+  Import took 0.025708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb07bb3423981772c1e0750378d2bf4') in 0.020550 seconds 
+  Import took 0.028685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.784510 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0636e2fef1fcf4914609fb90bb757cd0') in 0.016071 seconds 
+  Import took 0.023560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c834c49010a142f031916cc8811aae') in 0.020238 seconds 
+  Import took 0.028477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.594395 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcac2b96d8313e4b6ab0c81da98cff36') in 0.017404 seconds 
+  Import took 0.024815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fd2fc7adcfc227f5d3ec383ff2c5e2') in 0.020046 seconds 
+  Import took 0.026862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004014 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fd2fc7adcfc227f5d3ec383ff2c5e2') in 0.020400 seconds 
+  Import took 0.025715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.993298 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a886cd26586e708bce17baa46d9940') in 0.021639 seconds 
+  Import took 0.028711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684f5139acc117b207d44eae10c0fb4d') in 0.020980 seconds 
+  Import took 0.027128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.794129 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9065725b90039ea4321ffe6f518e9be8') in 0.016668 seconds 
+  Import took 0.022346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e580e188f353b915154ed85eca9ebf55') in 0.021231 seconds 
+  Import took 0.028401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.120724 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25693f90c3b0925b874aeb88c97769cc') in 0.020175 seconds 
+  Import took 0.027041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e0fc5486d44ae69eecfe860931da94') in 0.024340 seconds 
+  Import took 0.031700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.059427 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba23e0927f5919da23775c1999971afd') in 0.021963 seconds 
+  Import took 0.029607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcdfeb24aea79d7805616049aaf8bad') in 0.020612 seconds 
+  Import took 0.027947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.213217 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce822448f8a2480ac88edef26c561ac') in 0.018689 seconds 
+  Import took 0.025121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cb9284000cfe661071a30ba90c5f3c') in 0.022493 seconds 
+  Import took 0.029024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.918392 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b121414d24d26e1d5d72f9326efacea7') in 0.017875 seconds 
+  Import took 0.025146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b7ec998b2eb45919360b8765081cc6') in 0.021036 seconds 
+  Import took 0.026962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.417759 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f546e0b0328622fa0ed9958cee875dbe') in 0.020034 seconds 
+  Import took 0.027630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe0f36cf96a12dd1378256fccf61cda') in 0.022008 seconds 
+  Import took 0.029072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.123107 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e300998866ba15f317b19a4cf3048eb') in 0.018445 seconds 
+  Import took 0.026856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506d0d7d2cab67f8fcc062b344249ec1') in 0.020832 seconds 
+  Import took 0.027107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.099240 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5257a11292ab96ee25be550329c0925') in 0.015810 seconds 
+  Import took 0.023180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daec60ea366e801f3b84d05b4e09008d') in 0.020432 seconds 
+  Import took 0.034794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.232809 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7508897d52c77117e3938b79f560eeb') in 0.016765 seconds 
+  Import took 0.022318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a59f10e6e0506cf98fe3ea3ea6fd429') in 0.020449 seconds 
+  Import took 0.027835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.727522 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65fb193563e29e5dcbc09907ee3431c') in 0.017438 seconds 
+  Import took 0.023824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23161d1fd6f58270b4a128fe92ce00c2') in 0.020436 seconds 
+  Import took 0.026378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.443417 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f421c45730227b50cab37f97e5b8c715') in 0.016459 seconds 
+  Import took 0.022808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e72f221119facfe4e69d26f43c328ed') in 0.021777 seconds 
+  Import took 0.029672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.920632 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031696f6bb9588927c1b2bb5cbb14981') in 0.023388 seconds 
+  Import took 0.040176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.033159 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d8fb62cdf17998d042fe0ebd446774') in 0.020394 seconds 
+  Import took 0.026971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.806743 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6e4ce9ebfd0e257b62ed0ae05b009b') in 0.019936 seconds 
+  Import took 0.027014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.869475 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585432603bc59401edad3ef203f73961') in 0.019861 seconds 
+  Import took 0.027763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.433665 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38976c2b85f894792af712182f6abdf') in 0.018342 seconds 
+  Import took 0.024821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc76b37b178af37dfee482a4433155f0') in 0.022711 seconds 
+  Import took 0.029665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.249882 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23f44dbf8fbe15aca7341e57d8766ce') in 0.019614 seconds 
+  Import took 0.027796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acccc0fd586605bc82b62f4af61b54b') in 0.021452 seconds 
+  Import took 0.030022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.304505 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa051cf942d8bd61e7c10029fe802d2') in 0.018565 seconds 
+  Import took 0.023815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549247e04db4409eaca1cbefa460a2de') in 0.019493 seconds 
+  Import took 0.027219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.086590 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935b8a531a7b099afbbff36fdca3f89') in 0.018877 seconds 
+  Import took 0.025361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993b43e54a9044455255b11913b51615') in 0.022617 seconds 
+  Import took 0.031320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.406104 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e959d84aa1e47131f8a662c39784905a') in 0.023665 seconds 
+  Import took 0.031759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d526db3a388af291eb0dfdbe0ea5e97') in 0.023689 seconds 
+  Import took 0.032866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.969079 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65d52a630fe9b4419b0935d7594f216') in 0.016097 seconds 
+  Import took 0.022237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e9357c137986090dba394cb85c3af2') in 0.019603 seconds 
+  Import took 0.026004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.804278 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0256a2a241461aa0ec28e296adf699d6') in 0.017989 seconds 
+  Import took 0.025302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f15cebc7223bcffb48033b9a10a6212') in 0.022836 seconds 
+  Import took 0.029735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.113435 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dd1f323429053dfa23751dfe0d7ad0') in 0.019300 seconds 
+  Import took 0.025690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d9eb7feacb30eb6c6189c5f9e9db1e') in 0.022635 seconds 
+  Import took 0.029267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.818731 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df1973f853cc752eebda1b084821d0b') in 0.018824 seconds 
+  Import took 0.026733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a6f78320b9d169601cb68d4a87f649') in 0.022133 seconds 
+  Import took 0.028220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.960685 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a0b4832f08e4abae9fb5fed4fea11c') in 0.019226 seconds 
+  Import took 0.027692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db20f99a80213913e482399ec0f7f412') in 0.022119 seconds 
+  Import took 0.028155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752676 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c533cb213b608bc147e9516c99e777e') in 0.017657 seconds 
+  Import took 0.025210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb355a8c355c7bc76f96bd5310ade2fa') in 0.018501 seconds 
+  Import took 0.026198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.598932 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2949632a9e3cb52ee7cc7df63f6e0ad1') in 0.022014 seconds 
+  Import took 0.030263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073f0a5ab411a3d2fbc3ad35fa7990c3') in 0.020402 seconds 
+  Import took 0.028755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.800607 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ded77b0daaf2aea7dc33e507f6660e') in 0.019856 seconds 
+  Import took 0.026696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80744284c0fc5bc433acf21c825e1717') in 0.019540 seconds 
+  Import took 0.027887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.543416 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7250bae57c149c3ebf79d0177a07bb7') in 0.017171 seconds 
+  Import took 0.023946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67382673579fef69d03974a3fc5a4f87') in 0.022614 seconds 
+  Import took 0.028296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614390 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e3baed6ee4d7a7bfc81e79a91e7320') in 0.016543 seconds 
+  Import took 0.023146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad7d85d067c746399651e8c00eadaf0') in 0.021723 seconds 
+  Import took 0.028241 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1695ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1401ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2889 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3565.
+Total: 3.598000 ms (FindLiveObjects: 0.401900 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.964400 ms  DeleteObjects: 0.056400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.887773 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99f8b918b4b7da00f6aaf36b96de480') in 0.245669 seconds 
+  Import took 0.253141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe1cccbe342e741dead0c21ed805a1b') in 0.018561 seconds 
+  Import took 0.025894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.221534 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b328ad2bdae283b0b4be023ce52353') in 0.119058 seconds 
+  Import took 0.125607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016249 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b328ad2bdae283b0b4be023ce52353') in 0.076802 seconds 
+  Import took 0.083477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.639888 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cc8ee40c5fd873ff621e59adf25143') in 0.017810 seconds 
+  Import took 0.025552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e3eb547c9be372bae7042026300d77') in 0.020618 seconds 
+  Import took 0.027982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581406 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce9ca10e9acc4fa7d62e037b9fc5511') in 0.017851 seconds 
+  Import took 0.024518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150c223620059ed71868cde3163b2b36') in 0.019517 seconds 
+  Import took 0.025375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.785042 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0468b2cd6eb3cb5bf5468c8eb16ad106') in 0.021582 seconds 
+  Import took 0.027949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a1530cbc79a231f9b43c6992e1aad6') in 0.030158 seconds 
+  Import took 0.036550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.229222 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f810b74e2204dd6f5710c0fa29c8a6') in 0.020933 seconds 
+  Import took 0.026303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d89bf2063a08a4050cce04c24f536ee') in 0.021618 seconds 
+  Import took 0.029099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548781 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71167839c002fc2455aead582a631ac9') in 0.016690 seconds 
+  Import took 0.023177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46021853c9f56d5032a62673a5a468d3') in 0.019749 seconds 
+  Import took 0.026027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.509855 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6b9ab39718adf52a8a52cc4f55a7e2') in 0.016864 seconds 
+  Import took 0.023233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b899e9b7d6137464c3c49dff48efcd') in 0.020422 seconds 
+  Import took 0.026945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.101760 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40037b955d0c7af2cdef91c3846e9999') in 0.018708 seconds 
+  Import took 0.025597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260ed581164e0f3ad444e2027a962bb4') in 0.022851 seconds 
+  Import took 0.030065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.657914 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d206a96a938338fe08a6fde30ad88e0') in 0.019613 seconds 
+  Import took 0.027341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af9919f9b5d3cc54460f46c637e7a58') in 0.022610 seconds 
+  Import took 0.029431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1477ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2889 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3604.
+Total: 4.360500 ms (FindLiveObjects: 0.453100 ms CreateObjectMapping: 0.356100 ms MarkObjects: 3.454900 ms  DeleteObjects: 0.095000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193.496167 seconds.
+  path: Assets/Prefabs/WinstonShield.prefab
+  artifactKey: Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WinstonShield.prefab using Guid(f9c030314c910184a8f083f292444223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d96aab00679825bc3a00da6172b32c5') in 0.196988 seconds 
+  Import took 0.204649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.548691 seconds.
+  path: Assets/Prefabs/shield_generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shield_generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a57983b8cd858f979f5e73af0f9fe7') in 0.027837 seconds 
+  Import took 0.034422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.258406 seconds.
+  path: Assets/Prefabs/Winston Shield Generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Winston Shield Generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4765ccceb31289164facbca253cb392') in 0.023443 seconds 
+  Import took 0.030742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.172616 seconds.
+  path: Assets/Materials/EmissiveBlueDarker.mat
+  artifactKey: Guid(5139a32f626ed4c46af3aa8d4fe04460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EmissiveBlueDarker.mat using Guid(5139a32f626ed4c46af3aa8d4fe04460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa64b69eb0bbcaf134248acb320f00a8') in 0.031507 seconds 
+  Import took 0.038925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017579 seconds.
+  path: Assets/Materials/EmissiveBlueDarker.mat
+  artifactKey: Guid(5139a32f626ed4c46af3aa8d4fe04460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EmissiveBlueDarker.mat using Guid(5139a32f626ed4c46af3aa8d4fe04460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa64b69eb0bbcaf134248acb320f00a8') in 0.011182 seconds 
+  Import took 0.018977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.686409 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79e7aad7d1ba23afd24d285360f97dd') in 0.090142 seconds 
+  Import took 0.096863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.725851 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822eb7d5ca752ed606799ae07d6e7e06') in 0.074992 seconds 
+  Import took 0.081841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.349562 seconds.
+  path: Assets/Materials/White.mat
+  artifactKey: Guid(5c72f5af7e0cfed4087dc78ffd9982a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White.mat using Guid(5c72f5af7e0cfed4087dc78ffd9982a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb908adc852173385d6516f2e40e8d3') in 0.011331 seconds 
+  Import took 0.019088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.476906 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d50ba6052b32676e5fdd275e157f8d') in 0.067439 seconds 
+  Import took 0.075447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.869385 seconds.
+  path: Assets/Meshes/shield_generator.blend
+  artifactKey: Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shield_generator.blend using Guid(88666cefdcd05f74d80f5869dfa268ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621c3d9a2d99be891f2df0540a43e745') in 0.078345 seconds 
+  Import took 0.084883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.393139 seconds.
+  path: Assets/Prefabs/Winston Shield Generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Winston Shield Generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ec28d881bc79a3882ff5dd33c6cdaa') in 0.023627 seconds 
+  Import took 0.029514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.504850 seconds.
+  path: Assets/Prefabs/Winston Shield Generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Winston Shield Generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3581d1595c3981a9351f14846ce0bf2d') in 0.025274 seconds 
+  Import took 0.031482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.847659 seconds.
+  path: Assets/Materials/Gray.mat
+  artifactKey: Guid(5c72f5af7e0cfed4087dc78ffd9982a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gray.mat using Guid(5c72f5af7e0cfed4087dc78ffd9982a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a58a4b48cea4220a488071d8b753f') in 0.011654 seconds 
+  Import took 0.020061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.977840 seconds.
+  path: Assets/Prefabs/Winston Shield Generator.prefab
+  artifactKey: Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Winston Shield Generator.prefab using Guid(b7ce97a4f66302149abde065f13da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29663637bf6cab21c7ae36d6bcd7bf14') in 0.028621 seconds 
+  Import took 0.039493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.361951 seconds.
+  path: Assets/Shaders/VolumetricGlowShader.shadergraph
+  artifactKey: Guid(21f187041e425e64ca6d6e6c9993673d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VolumetricGlowShader.shadergraph using Guid(21f187041e425e64ca6d6e6c9993673d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39702b4a87acd4772054fd05166a07a9') in 0.006524 seconds 
+  Import took 0.012034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Shaders/VolumetricGlowShader.shadergraph
+  artifactKey: Guid(21f187041e425e64ca6d6e6c9993673d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/VolumetricGlowShader.shadergraph using Guid(21f187041e425e64ca6d6e6c9993673d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39702b4a87acd4772054fd05166a07a9') in 0.002718 seconds 
+  Import took 0.008802 seconds .
+
