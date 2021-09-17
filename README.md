@@ -9,3 +9,6 @@ Hologram Globe
 
 Sigma Hyper Sphere
 [![Watch the video](https://img.youtube.com/vi/YQo-R07wKaw/maxresdefault.jpg)](https://youtu.be/YQo-R07wKaw)
+
+Winston's Shield Barrier
+[![Watch the video](https://img.youtube.com/vi/xJWDJoHPj4M/maxresdefault.jpg)](https://youtu.be/xJWDJoHPj4M)
