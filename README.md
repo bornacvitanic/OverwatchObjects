@@ -12,3 +12,6 @@ Sigma Hyper Sphere
 
 Winston's Shield Barrier
 [![Watch the video](https://img.youtube.com/vi/xJWDJoHPj4M/maxresdefault.jpg)](https://youtu.be/xJWDJoHPj4M)
+
+Soldier: 76's Biotic Field
+[![Watch the video](https://img.youtube.com/vi/Y0pT3-xleCc/maxresdefault.jpg)](https://youtu.be/Y0pT3-xleCc)
