@@ -15,11 +15,11 @@ D:/Users/borna/Unity Projects/OverwatchObjects
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57691
+51505
 Successfully changed project path to: D:/Users/borna/Unity Projects/OverwatchObjects
 D:/Users/borna/Unity Projects/OverwatchObjects
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -36,315 +36,90 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001956 seconds.
+Registered in 0.006997 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.623 seconds
+- Completed reload, in  1.791 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1624ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1791ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (524ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (540ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006316 seconds.
+Registered in 0.013349 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.476 seconds
+- Completed reload, in  1.669 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1477ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (1670ms)
+		BeginReloadAssembly (230ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1209ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1333ms)
+			LoadAssemblies (179ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (365ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (518ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (606ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (23ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.9 MB.
-System memory in use after: 138.1 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3445.
-Total: 4.053300 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.131600 ms MarkObjects: 3.501700 ms  DeleteObjects: 0.153900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Materials/BionicField.mat
-  artifactKey: Guid(3890031538c19d346b64910ab5203eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BionicField.mat using Guid(3890031538c19d346b64910ab5203eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba6d1868918afea0ca0b55437196f14') in 0.627015 seconds 
-  Import took 0.633087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121681 seconds.
-  path: Assets/Meshes/biotic_generator.blend
-  artifactKey: Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/biotic_generator.blend using Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cfee2cd49eae43d40792d678f54b83') in 0.199749 seconds 
-  Import took 0.206252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.654658 seconds.
-  path: Assets/Meshes/biotic_generator.blend
-  artifactKey: Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/biotic_generator.blend using Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c6a076ed6b3480b6083cf4b4efb525') in 0.064449 seconds 
-  Import took 0.095225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.932089 seconds.
-  path: Assets/Meshes/biotic_generator.blend
-  artifactKey: Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/biotic_generator.blend using Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9bc2deb2d461f32d723bea3c03b700') in 0.064335 seconds 
-  Import took 0.069686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.413551 seconds.
-  path: Assets/Meshes/biotic_generator.blend
-  artifactKey: Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/biotic_generator.blend using Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51024219121c68037a2c49b82faf82e1') in 0.067253 seconds 
-  Import took 0.077155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.661665 seconds.
-  path: Assets/Meshes/biotic_generator.blend
-  artifactKey: Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/biotic_generator.blend using Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddb5c6a2ef9cf297b2dee9d90cf5c12') in 0.057328 seconds 
-  Import took 0.063787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.554033 seconds.
-  path: Assets/Meshes/biotic_generator.blend
-  artifactKey: Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/biotic_generator.blend using Guid(9cfdb14aa627d8b4a9650cd49ea75914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff55627be8ec43cea8575c882a3d1d88') in 0.059444 seconds 
-  Import took 0.065016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.425230 seconds.
-  path: Assets/Prefabs/BioticField.prefab
-  artifactKey: Guid(c9ca4895b3375264b91b59fdba7da068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticField.prefab using Guid(c9ca4895b3375264b91b59fdba7da068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5a73d96ccb409962438a3b849094c3') in 0.025588 seconds 
-  Import took 0.032409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.577726 seconds.
-  path: Assets/Materials/BioticField.mat
-  artifactKey: Guid(3890031538c19d346b64910ab5203eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BioticField.mat using Guid(3890031538c19d346b64910ab5203eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54d587d98704e2a924a314f986dede') in 0.011193 seconds 
-  Import took 0.016551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.968744 seconds.
-  path: Assets/Shaders/BionicField.shadergraph
-  artifactKey: Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/BionicField.shadergraph using Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f9159b06c28f8a0173d24c8de98233') in 0.004483 seconds 
-  Import took 0.009288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.303324 seconds.
-  path: Assets/Shaders/BionicField.shadergraph
-  artifactKey: Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/BionicField.shadergraph using Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f9159b06c28f8a0173d24c8de98233') in 0.002642 seconds 
-  Import took 0.007831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.630984 seconds.
-  path: Assets/Shaders/BioticField.shadergraph
-  artifactKey: Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/BioticField.shadergraph using Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08997dba78c57000f0624cea2f9aee5') in 0.002436 seconds 
-  Import took 0.007130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.346932 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329ab4fd4cf27381e80cf67e9b2e3ce4') in 0.019188 seconds 
-  Import took 0.027147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.061669 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012c194d2925fd6d42b2caafc44a9cf8') in 0.017200 seconds 
-  Import took 0.022856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.453694 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328a0ba833779d237a277c191c59c476') in 0.017650 seconds 
-  Import took 0.023196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.602007 seconds.
-  path: Assets/Prefabs/BioticField.prefab
-  artifactKey: Guid(c9ca4895b3375264b91b59fdba7da068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticField.prefab using Guid(c9ca4895b3375264b91b59fdba7da068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cda47027e615abe33f3dc62b74c5dc') in 0.015565 seconds 
-  Import took 0.021947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab27945c1cc6063d2fd847ecfc03d67') in 0.017701 seconds 
-  Import took 0.048134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.441987 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8364d722324d729156b86cc5619a1e3') in 0.019200 seconds 
-  Import took 0.025163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.926167 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5fda3a0df6969fe8b446c503b78f79') in 0.017144 seconds 
-  Import took 0.023177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.637507 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c15787a3fba0a941165e4cd54412df') in 0.016512 seconds 
-  Import took 0.021927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.808063 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab79cb71e785f327ab27b1a84fc2d531') in 0.016272 seconds 
-  Import took 0.051991 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007226 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1425ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1151ms)
-			LoadAssemblies (167ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (447ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 136.0 MB.
+Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3529.
-Total: 3.945400 ms (FindLiveObjects: 0.588900 ms CreateObjectMapping: 0.258000 ms MarkObjects: 3.033500 ms  DeleteObjects: 0.063800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3445.
+Total: 3.684200 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.106300 ms MarkObjects: 3.108500 ms  DeleteObjects: 0.173500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -359,106 +134,433 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.547129 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f60ab015ffc9b0f7af6efe4985dd41') in 0.181715 seconds 
-  Import took 0.203135 seconds .
+  path: Assets/Scripts/BioticGenerator
+  artifactKey: Guid(778dd4711d033f8448e56109382505ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BioticGenerator using Guid(778dd4711d033f8448e56109382505ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba8dafac4586d1b006c5a710b9df198') in 0.006665 seconds 
+  Import took 0.026560 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.216802 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3691ed8849b73feec887e2723dc603') in 0.019207 seconds 
-  Import took 0.025909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.223825 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231702d4d71ed1269460aa149677f058') in 0.020261 seconds 
-  Import took 0.029075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.419138 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e93a05e11b1f917b1c4909a3d875d0') in 0.018984 seconds 
-  Import took 0.025100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.630389 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666937476c2489e4f9349922a5e1a35f') in 0.016959 seconds 
-  Import took 0.022498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.997606 seconds.
-  path: Assets/Prefabs/BioticGenerator.prefab
-  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab80716b405ebe22f3ec51b013eadcb9') in 0.017994 seconds 
-  Import took 0.025003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 411.383069 seconds.
-  path: Assets/Shaders/BioticField.shadergraph
-  artifactKey: Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/BioticField.shadergraph using Guid(9a127524dbd63324fb2bbf65b46b9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d4d96d9fa3486955a9ce4c8683c5b2') in 0.002946 seconds 
-  Import took 0.015963 seconds .
+  Time since last request: 7.792452 seconds.
+  path: Assets/Scripts/BioticGenerator/BioticGenerator.cs
+  artifactKey: Guid(d1553a2be6d8ea94098e6687c43b5034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BioticGenerator/BioticGenerator.cs using Guid(d1553a2be6d8ea94098e6687c43b5034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9854b0d2f17fa08fc1b3cb4378eb85') in 0.134924 seconds 
+  Import took 0.141803 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008255 seconds.
+Registered in 0.010494 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
+- Completed reload, in  1.513 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1738ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1513ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1214ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 3.572600 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.178400 ms MarkObjects: 3.064900 ms  DeleteObjects: 0.038500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.863774 seconds.
+  path: Assets/Scripts/Interaction.cs
+  artifactKey: Guid(c0a25c26b104e7a4ea16a3bfc471e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction.cs using Guid(c0a25c26b104e7a4ea16a3bfc471e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c014150d82ac0a8c4829e5c9550df6') in 0.007315 seconds 
+  Import took 0.013081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.076615 seconds.
+  path: Assets/Scripts/Winston Shield/ShieldGenerator.cs
+  artifactKey: Guid(4eb67d287e43f9e479bfd344da79b663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Winston Shield/ShieldGenerator.cs using Guid(4eb67d287e43f9e479bfd344da79b663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0103f4d8de8deb30659140c9c68cfa6') in 0.019605 seconds 
+  Import took 0.024308 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1491ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1221ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 3.749900 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.149900 ms MarkObjects: 3.133400 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 212.674891 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f77303aa95e5abfe470f87d0df52bc') in 0.302031 seconds 
+  Import took 0.307769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.839137 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5d0c9bb2e82edec9cfa4f348379b79') in 0.020490 seconds 
+  Import took 0.026915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.065681 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4532656ab7785a54d3912a6f8fd9adf5') in 0.025329 seconds 
+  Import took 0.033837 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1784ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1459ms)
-			LoadAssemblies (178ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1481ms)
+			LoadAssemblies (181ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (483ms)
+			SetupTypeCache (438ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (561ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (607ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (419ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.3 MB.
+Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3568.
-Total: 5.112500 ms (FindLiveObjects: 0.412900 ms CreateObjectMapping: 0.195900 ms MarkObjects: 4.479600 ms  DeleteObjects: 0.022500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3501.
+Total: 3.674800 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.147500 ms MarkObjects: 3.153900 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75.280759 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f391cb51175df36bba0b8c95fd172e33') in 0.229497 seconds 
+  Import took 0.236117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.990404 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1360df7bbecf59ffd76709605a4815fa') in 0.026678 seconds 
+  Import took 0.035332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613215 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1e9e08dc953fc9aa0eeffb2b69ae40') in 0.049673 seconds 
+  Import took 0.057272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.816718 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a37df853301d98c82985375dc74f240') in 0.025807 seconds 
+  Import took 0.034421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.612228 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2d81875b3a59ddb55a12b9fe536493') in 0.022439 seconds 
+  Import took 0.028685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.307835 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51b8714b039c6f83e1b151b345a30eb') in 0.024697 seconds 
+  Import took 0.033050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.620390 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d84d572271646f9a430e31d22b80c4') in 0.025164 seconds 
+  Import took 0.031279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406960 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550a20beeb96671643ba61f67cd32fa1') in 0.027589 seconds 
+  Import took 0.034714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.349374 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e97d2c66b3a72b32523507beb93e30') in 0.030496 seconds 
+  Import took 0.038656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1246ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3540.
+Total: 3.465400 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.132500 ms MarkObjects: 2.987800 ms  DeleteObjects: 0.032000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.528844 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4cbb75573f0d3c8007b4d5297333d4') in 0.200575 seconds 
+  Import took 0.220691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Prefabs/BioticField.prefab
+  artifactKey: Guid(c9ca4895b3375264b91b59fdba7da068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticField.prefab using Guid(c9ca4895b3375264b91b59fdba7da068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffce0168f714aa3f7a981fbd59226a3e') in 0.019475 seconds 
+  Import took 0.024989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.605583 seconds.
+  path: Assets/Prefabs/BioticGenerator.prefab
+  artifactKey: Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BioticGenerator.prefab using Guid(6b7e1c7e3a39aaa438d4cbadf9e5f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c9f75a3fcfd6dd963a109be806f502') in 0.030736 seconds 
+  Import took 0.038220 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1744ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1491ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3579.
+Total: 3.690700 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.122800 ms MarkObjects: 3.233100 ms  DeleteObjects: 0.040700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
