@@ -1,4 +1,7 @@
 # OverwatchObjects
+
+[![Twitter: @BCvitanic](https://img.shields.io/badge/contact-@BCvitanic-blue.svg?style=flat)](https://twitter.com/BCvitanic)
+
  Recreations of Overwatch objects using Blender, Unity and Shader Graph
 
 Hackable Health Packs
